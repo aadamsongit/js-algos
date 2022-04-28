@@ -1,0 +1,30 @@
+// JavaScript coding challenges from Angela Yu's course on frontend development.
+
+// Challenge 1: Create an alert to ask the user for their name. Have the first letter of the name be capitalized, but print the other letters of the name as 
+// lowercase letters.
+
+var name = prompt("What is your name?");
+nameFirstLetter = name.slice(0,1);
+nameLetterUppercase = nameFirstLetter.toUpperCase();
+nameOtherLetters = name.slice(1, 10);
+nameOtherLettersLowercase = nameOtherLetters.toLowerCase();
+alert("Hello " + nameLetterUppercase + nameOtherLettersLowercase);
+
+// another way to run line 8 is to use the .length property rather than (1, 10);
+
+// Challenge 2: Create to an alert to ask the user for their dog's age. Convert the dog's age to its equivalent in human years and write an alert to tell the dog's age
+// in equivalent human years.
+
+var dogAge = prompt("What is your dog's age?");
+var humanAge = (dogAge - 2) * 4 + 21
+alert("Your dog is " + humanAge + " years old in human years."); 
+
+// Challenge 3: Love calculator
+// Create alerts to ask for two names. Using Math.random() and Math.round(), as well as multiplication with whole numbers, create a "love calculator" which generates
+// a random percentage and create a statement about the chance (in percent) of the two people falling in love. The percent/number generated is random.
+
+var loveCalcName1 = prompt("What is your name?")
+var loveCalcName2 = prompt("What is your name?")
+var n = Math.random();
+n = Math.round(n * 100);
+alert(loveCalcName1 + " and " + loveCalcName2 + " have a " + n + "% chance of finding love.")
