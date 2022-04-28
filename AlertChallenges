@@ -10,7 +10,7 @@ nameOtherLetters = name.slice(1, 10);
 nameOtherLettersLowercase = nameOtherLetters.toLowerCase();
 alert("Hello " + nameLetterUppercase + nameOtherLettersLowercase);
 
-// another way to run line 8 is to use the .length property rather than (1, 10);
+// another way to run line 9 is to use the .length property rather than (1, 10);
 
 // Challenge 2: Create to an alert to ask the user for their dog's age. Convert the dog's age to its equivalent in human years and write an alert to tell the dog's age
 // in equivalent human years.
