@@ -14,7 +14,7 @@ Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
 
 function panic(str) {
     let result = str.split(' ')
-    .join("😱")
+    .join(" 😱 ")
     .toUpperCase()
     .concat("!"); {
         return result;
